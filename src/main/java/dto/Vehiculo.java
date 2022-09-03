@@ -10,6 +10,7 @@ package dto;
  */
 public class Vehiculo {
     private String placa; 
+    private String marca;
 
     public String getPlaca() {
         return placa;
@@ -18,6 +19,15 @@ public class Vehiculo {
     public void setPlaca(String placa) {
         this.placa = placa;
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    
     
     
 }
